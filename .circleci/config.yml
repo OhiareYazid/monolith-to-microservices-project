@@ -36,7 +36,7 @@ jobs:
             docker push yazidohiare/udagram-api-feed:v3
             docker push yazidohiare/udagram-api-user:v3
             docker push yazidohiare/udagram-frontend:v3
-            docker push yaziodohiare/udagram-reverseproxy:v3
+            docker push yazidohiare/udagram-reverseproxy:v3
 workflows:
   default:
     jobs:
