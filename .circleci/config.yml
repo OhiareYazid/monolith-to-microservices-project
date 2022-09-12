@@ -21,7 +21,7 @@ jobs:
             sudo apt install nodejs
             echo "--------- The images is Building ------------"
             docker build -t udagram-api-feed ./udagram-api-feed
-            docker tag udagram-api-feed newthingade/udagram-api-feed:v3
+            docker tag udagram-api-feed yazidohiare/udagram-api-feed:v3
             docker build -t udagram-api-user ./udagram-api-user
             docker tag udagram-api-user yazidohiare/udagram-api-user:v3
             
