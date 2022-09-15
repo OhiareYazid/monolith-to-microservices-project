@@ -14,13 +14,15 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: docker.io/yazidohiare/udagram-frontend:v3
+        image: docker.io/yazidohiare/udagram-frontend:v6
         ports: 
         - containerPort: 80
         resources:
           limits:
+            memory: "2000Mi"
             cpu: 500m
           requests:
+            memory: "1000Mi"
             cpu: 200m
 
 ---
