@@ -1,14 +1,13 @@
+# This file is used for convenience of local development.
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: env-config
+  name: env-configmap
 data:
-  POSTGRES_USERNAME: postgres
-  POSTGRES_PASSWORD: postgres
-  POSTGRES_HOST: database-1.c4vnsbcf0dyp.us-east-1.rds.amazonaws.com
+  POSTGRES_HOST: database-1.clbuto2t6lur.us-east-2.rds.amazonaws.com
   POSTGRES_DB: postgres
-  AWS_BUCKET: my-bucket-467762233013
-  AWS_REGION: us-east-1
+  AWS_BUCKET: my-567845169409
+  AWS_REGION: us-east-2
   AWS_PROFILE: default
-  JWT_SECRET: testing
   URL: http://localhost:8100
+  PORT: "8080"
