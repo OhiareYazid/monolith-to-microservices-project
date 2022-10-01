@@ -4,10 +4,10 @@ kind: ConfigMap
 metadata:
   name: env-configmap
 data:
-  POSTGRES_HOST: database-1.clbuto2t6lur.us-east-2.rds.amazonaws.com
+  POSTGRES_HOST: database-1.ccbruttw125t.us-east-2.rds.amazonaws.com
   POSTGRES_DB: postgres
   AWS_BUCKET: my-567845169409
   AWS_REGION: us-east-2
   AWS_PROFILE: default
-  URL: http://a407fb330b8fc478ca45ed394060c6fd-1574832831.us-east-2.elb.amazonaws.com:8100 #frontend Domain
+  URL: http://a7bbdb9d5109346f19e2bf4dfbe99198-178633989.us-east-2.elb.amazonaws.com:8080 #frontend-Domain
   PORT: "8080"
